@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  --color-gold-50: #fbf8f1;
+  --color-gold-100: #f4ecdb;
+  --color-gold-200: #e9d9b7;
+  --color-gold-300: #d9bf8a;
+  --color-gold-400: #c5a059;
+  --color-gold-500: #b38b45;
+  --color-gold-600: #9a7239;
+  --color-gold-700: #805d31;
+  --color-gold-800: #694c2c;
+  --color-gold-900: #573f27;
+  --color-gold-950: #312214;
+
+  --color-navy-950: #050810;
+  --color-navy-900: #0a0f1d;
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-navy-950 text-slate-300 font-sans antialiased selection:bg-gold-500/20 selection:text-gold-100 cursor-default overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight;
+  }
+}
+
+.glass {
+  @apply bg-white/[0.02] backdrop-blur-xl border border-white/[0.05];
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #e9d9b7 0%, #b38b45 50%, #e9d9b7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-bg-gradient {
+  background: linear-gradient(135deg, #d9bf8a 0%, #b38b45 100%);
+}
+
+.luxury-shadow {
+  box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.section-divider {
+  @apply w-px h-24 bg-gradient-to-b from-gold-500/30 to-transparent mx-auto my-12;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-navy-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gold-900/30 rounded-full hover:bg-gold-800/50 transition-colors;
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  @apply fixed w-8 h-8 border border-gold-500/50 rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 transition-transform duration-150 ease-out hidden lg:block;
+}
+
+.custom-cursor-dot {
+  @apply fixed w-1 h-1 bg-gold-400 rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 hidden lg:block;
+}
