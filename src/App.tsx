@@ -30,6 +30,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { useMotionValueEvent } from "motion/react";
+import doctor from "./assets/doctor.jpeg";
 
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -309,7 +310,7 @@ const DoctorSection = () => {
             <div className="absolute -inset-6 border border-gold-500/10 translate-x-6 translate-y-6 transition-transform duration-1000 group-hover:translate-x-3 group-hover:translate-y-3" />
             <div className="relative aspect-[4/5] overflow-hidden luxury-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=2070" 
+                src={doctor}
                 alt="Dr. Rajesh Pancheti"
                 className="w-full h-full object-cover transition-all duration-1000 scale-110 group-hover:scale-100"
                 referrerPolicy="no-referrer"
