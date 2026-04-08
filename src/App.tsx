@@ -31,6 +31,7 @@ import {
 import { useState, useEffect, useRef } from "react";
 import { useMotionValueEvent } from "motion/react";
 import doctor from "./assets/doctor.jpeg";
+import heroBg from "./assets/Hero.png";
 
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -223,15 +224,15 @@ const Hero = () => {
         className="absolute inset-0 z-0"
       >
         {/* Cinematic Dark Overlay Layers */}
-        <div className="absolute inset-0 bg-navy-950/90 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-950/40 via-navy-950/80 to-navy-950 z-10" />
+        <div className="absolute inset-0 bg-navy-950/30 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-navy-950/10 via-navy-950/40 to-navy-950 z-10" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(5,8,16,0.6)_100%)] z-10" />
         
         <img 
-          src="https://images.unsplash.com/photo-1615461066870-40b124f293db?auto=format&fit=crop&q=80&w=2000" 
+          src={heroBg}
           alt="Premium Medical Background"
-          className="w-full h-full object-cover grayscale opacity-40"
-          referrerPolicy="no-referrer"
+          className="w-full h-full object-cover grayscale opacity-70 relative z-0"
+          
         />
       </motion.div>
 
