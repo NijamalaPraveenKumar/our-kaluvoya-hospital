@@ -617,7 +617,7 @@ const TestimonialsSection = () => {
       rating: 5
     },
     {
-      name: "Poojitha Reddy",
+      name: "Poojitha",
       role: "Patient",
       content: "Doctor is friendly and explains clearly. He doesn't prescribe unnecessary medicines. Highly recommended for general checkups.",
       rating: 5
