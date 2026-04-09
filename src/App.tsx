@@ -381,7 +381,7 @@ const DoctorSection = () => {
             <div className="grid grid-cols-3 gap-12 pt-12 border-t border-white/5">
               {[
                 { val: "17+", label: "Years Experience" },
-                { val: "1k+", label: "Patients Treated" },
+                { val: "10k+", label: "Patients Treated" },
                 { val: "24/7", label: "Trusted Care" }
               ].map((stat, i) => (
                 <div key={i}>
@@ -623,7 +623,7 @@ const TestimonialsSection = () => {
       rating: 5
     },
     {
-      name: "Venkatesh P.",
+      name: "Babu.",
       role: "Patient",
       content: "The best medical care in Kaluvoya. The diagnostic facilities are top-notch and the staff is very courteous.",
       rating: 5
