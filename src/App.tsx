@@ -108,7 +108,7 @@ const Navbar = () => {
           className="flex flex-col items-start group cursor-pointer"
         >
           <span className="font-serif text-xl md:text-2xl tracking-[0.2em] gold-text-gradient uppercase leading-tight transition-transform duration-500 group-hover:scale-105">
-            Kaluvoya Hospital
+           KALUVAI HOSPITAL
           </span>
           <div className="flex flex-col items-start mt-1">
             <span className="font-serif text-[9px] md:text-[10px] tracking-[0.4em] text-white uppercase font-bold drop-shadow-[0_0_5px_rgba(255,255,255,0.5)]">
@@ -251,7 +251,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-slate-400 text-base md:text-lg lg:text-xl max-w-xl lg:max-w-2xl mx-auto mb-16 font-light leading-relaxed tracking-wide">
-            Where clinical precision meets human empathy. Experience a new standard of healthcare excellence at Kaluvoya Hospital.
+            Where clinical precision meets human empathy. Experience a new standard of healthcare excellence at Kaluvai Hospital.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 lg:gap-8 w-full sm:w-auto">
@@ -406,7 +406,7 @@ const SpecialTreatmentsSection = () => {
     { id: "05", name: "Diabetes & Thyroid", icon: <Activity size={24} strokeWidth={1} />, desc: "Advanced endocrine care for hormonal and metabolic balance." },
     { id: "06", name: "Poisoning Cases", icon: <AlertCircle size={24} strokeWidth={1} />, desc: "Critical emergency response for poisoning and toxicity." },
     { id: "07", name: "BP Management", icon: <HeartPulse size={24} strokeWidth={1} />, desc: "Precision control of hypertension and blood pressure levels." },
-    { id: "08", name: "Snake Bite Care", icon: <ShieldCheck size={24} strokeWidth={1} />, desc: "Emergency treatment and recovery for snake bite incidents." },
+    { id: "08", name: "Scorpion Bite Care", icon: <ShieldCheck size={24} strokeWidth={1} />, desc: "Emergency treatment and recovery for scorpion bite incidents." },
     { id: "09", name: "Joint & Knee Pain", icon: <Activity size={24} strokeWidth={1} />, desc: "Relief and therapy for chronic joint and knee discomfort." },
     { id: "10", name: "Gastrointestinal", icon: <Activity size={24} strokeWidth={1} />, desc: "Specialized care for complex digestive system diseases." },
     { id: "11", name: "Minor Bite Injuries", icon: <ShieldCheck size={24} strokeWidth={1} />, desc: "Prompt medical attention for various minor bite wounds." },
@@ -611,13 +611,13 @@ const DiagnosticsSection = () => {
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Suresh Kumar",
+      name: "Deepak Kumar",
       role: "Patient",
       content: "Very good treatment and quick response. Dr. Rajesh sir is extremely professional and the hospital environment is very clean and premium.",
       rating: 5
     },
     {
-      name: "Anitha Reddy",
+      name: "Poojitha Reddy",
       role: "Patient",
       content: "Doctor is friendly and explains clearly. He doesn't prescribe unnecessary medicines. Highly recommended for general checkups.",
       rating: 5
@@ -625,7 +625,7 @@ const TestimonialsSection = () => {
     {
       name: "Babu",
       role: "Patient",
-      content: "The best medical care in Kaluvoya. The diagnostic facilities are top-notch and the staff is very courteous.",
+      content: "The best medical care in Kaluvai. The diagnostic facilities are top-notch and the staff is very courteous.",
       rating: 5
     }
   ];
@@ -704,7 +704,7 @@ const ContactSection = () => {
             <div className="space-y-8 lg:space-y-12">
               {[
                 { icon: <Phone size={22} strokeWidth={1} />, label: "Call Us Directly", val: "+91 94926 64007", href: "tel:9492664007" },
-                { icon: <MapPin size={22} strokeWidth={1} />, label: "Visit Our Hospital", val: "Kaluvoya, Nellore", href: "https://maps.google.com/?q=GC65+9M9,+Kaluvoya,+Andhra+Pradesh+524343" },
+                { icon: <MapPin size={22} strokeWidth={1} />, label: "Visit Our Hospital", val: "Kaluvai, Nellore", href: "https://maps.google.com/?q=GC65+9M9,+Kaluvai,+Andhra+Pradesh+524343" },
                 { icon: <MessageCircle size={22} strokeWidth={1} />, label: "WhatsApp Consultation", val: "Chat with Dr. Rajesh", href: "https://wa.me/919492664007" }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-6 lg:gap-8 group">
@@ -728,7 +728,7 @@ const ContactSection = () => {
 
             <div className="mt-12 lg:mt-20 flex flex-col sm:flex-row gap-4 lg:gap-8">
               <motion.a 
-                href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvoya%20Hospital"
+                href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvai%20Hospital"
                 whileHover={{ scale: 1.02 }}
                 className="px-10 lg:px-12 py-5 lg:py-6 bg-gold-500 text-navy-950 font-bold uppercase tracking-[0.3em] text-[10px] rounded-sm transition-all duration-500 text-center luxury-shadow"
               >
@@ -768,7 +768,7 @@ const ContactSection = () => {
               </a>
 
               <iframe 
-                src="https://www.google.com/maps?q=Dr+Rajesh+Hospital+Kaluvoya&output=embed" 
+                src="https://www.google.com/maps?q=Dr+Rajesh+Hospital+Kaluvai&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: "grayscale(1) invert(1) contrast(1.2) opacity(0.4)" }} 
@@ -779,7 +779,7 @@ const ContactSection = () => {
               ></iframe>
 
               <div className="absolute bottom-4 left-4 lg:top-8 lg:left-8 glass p-4 lg:p-6 luxury-shadow rounded-lg border border-white/10 z-30 pointer-events-none">
-                <p className="text-gold-300 font-serif text-lg lg:text-xl tracking-wide">Kaluvoya Hospital</p>
+                <p className="text-gold-300 font-serif text-lg lg:text-xl tracking-wide">Kaluvai Hospital</p>
                 <p className="text-[8px] lg:text-[9px] uppercase tracking-[0.4em] text-slate-500 font-bold mt-1 lg:mt-2">Nellore, Andhra Pradesh</p>
               </div>
 
@@ -811,7 +811,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-16">
           <div className="flex flex-col items-center lg:items-start">
-            <span className="font-serif text-3xl tracking-[0.25em] gold-text-gradient uppercase leading-tight">Kaluvoya</span>
+            <span className="font-serif text-3xl tracking-[0.25em] gold-text-gradient uppercase leading-tight">Kaluvai</span>
             <span className="font-serif text-3xl tracking-[0.25em] gold-text-gradient uppercase leading-tight">Hospital</span>
           </div>
           
@@ -828,7 +828,7 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Dr. Rajesh Pancheti.
             </p>
             <p className="text-[10px] uppercase tracking-[0.4em] text-slate-800 font-bold">
-              Kaluvoya Hospital Website Designed and Created by{" "}
+              Kaluvai Hospital Website Designed and Created by{" "}
               <a href="mailto:praveenkumarnijamala@gmail.com" className="text-gold-600 hover:text-gold-400 transition-colors lowercase">
                 praveenkumarnijamala@gmail.com
               </a>
