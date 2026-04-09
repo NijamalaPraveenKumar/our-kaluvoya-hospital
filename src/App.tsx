@@ -728,7 +728,8 @@ const ContactSection = () => {
 
             <div className="mt-12 lg:mt-20 flex flex-col sm:flex-row gap-4 lg:gap-8">
               <motion.a 
-                href="https://wa.me/919492664007"
+               <motion.a 
+  href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvoya%20Hospital"
                 whileHover={{ scale: 1.02 }}
                 className="px-10 lg:px-12 py-5 lg:py-6 bg-gold-500 text-navy-950 font-bold uppercase tracking-[0.3em] text-[10px] rounded-sm transition-all duration-500 text-center luxury-shadow"
               >
