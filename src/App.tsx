@@ -623,7 +623,7 @@ const TestimonialsSection = () => {
       rating: 5
     },
     {
-      name: "Babu.",
+      name: "Babu",
       role: "Patient",
       content: "The best medical care in Kaluvoya. The diagnostic facilities are top-notch and the staff is very courteous.",
       rating: 5
@@ -641,7 +641,7 @@ const TestimonialsSection = () => {
           <div className="flex items-center gap-8 glass p-8 luxury-shadow">
             <Users size={40} strokeWidth={1} className="text-gold-400" />
             <div className="text-left">
-              <p className="text-3xl font-serif text-white leading-none">1000+</p>
+              <p className="text-3xl font-serif text-white leading-none">10k+</p>
               <p className="text-[9px] uppercase tracking-[0.3em] text-slate-500 font-bold mt-2">Happy Patients</p>
             </div>
           </div>
