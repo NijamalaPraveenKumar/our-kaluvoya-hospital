@@ -256,7 +256,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 lg:gap-8 w-full sm:w-auto">
             <motion.a 
-              href="https://wa.me/919492664007"
+              href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvoya%20Hospital"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
