@@ -251,12 +251,12 @@ const Hero = () => {
           </h1>
 
           <p className="text-slate-400 text-base md:text-lg lg:text-xl max-w-xl lg:max-w-2xl mx-auto mb-16 font-light leading-relaxed tracking-wide">
-            Where clinical precision meets human empathy. Experience a new standard of healthcare excellence at Kaluvai Hospital.
+           Dr. Rajesh Pancheti is a dedicated and experienced medical professional. Experience a new standard of healthcare excellence at Kaluvai Hospital.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 lg:gap-8 w-full sm:w-auto">
             <motion.a 
-              href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvoya%20Hospital"
+              href="https://wa.me/919492664007?text=Hello%20Doctor%2C%20I%20want%20to%20book%20an%20appointment%20at%20Kaluvai%20Hospital"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
@@ -699,6 +699,12 @@ const ContactSection = () => {
             transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="text-gold-400 tracking-[0.6em] text-[10px] uppercase mb-4 lg:mb-6 font-semibold">Get In Touch</p>
+            <p className="text-slate-400 mb-6">
+            Looking for the best hospital in Kaluvai? Visit Kaluvai Hospital for 24/7 emergency services and trusted treatment by Dr Rajesh in Nellore District.
+            </p> 
+            <p className="text-slate-300 mb-6">
+             Dr. Rajesh Pancheti is a dedicated and experienced medical professional with a strong background in general medicine and patient care. With experience across reputed hospitals in India and abroad, he is known for accurate diagnosis, compassionate care, and commitment to patient well-being.
+              </p>
             <h2 className="text-4xl md:text-7xl font-serif text-white mb-8 lg:mb-16 leading-tight">Initiate Your <br /><span className="italic gold-text-gradient">Journey.</span></h2>
             
             <div className="space-y-8 lg:space-y-12">
@@ -914,4 +920,4 @@ export default function App() {
       <Footer />
     </div>
   );
-}
+} 
