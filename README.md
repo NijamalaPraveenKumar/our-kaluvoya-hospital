@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏥 Kaluvai Hospital Website
 
-# Run and deploy your AI Studio app
+A modern and responsive hospital website developed for a real client.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Website
+🔗 https://our-kaluvoya-hospital.vercel.app/
+## 💻 Source Code
+🔗 https://github.com/NijamalaPraveenKumar/our-kaluvoya-hospital
 
-View your app in AI Studio: https://ai.studio/apps/66bdae54-912a-4032-90bf-5040cf88223a
+## ⚛️ Tech Stack
+- React
+- HTML
+- CSS
+- Vite
 
-## Run Locally
+## 🤖 Development Approach
+This project was built using AI-assisted development along with manual customization based on client requirements.
 
-**Prerequisites:**  Node.js
+## ✨ Features
+✔️ Fully Responsive Design  
+✔️ WhatsApp Contact Integration  
+✔️ Patient Testimonials Section  
+✔️ SEO Optimized  
+✔️ Fast Loading Performance  
+
+## 💡 Project Purpose
+The client needed an online presence for their hospital.  
+This website helps patients easily access services and contact the hospital.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🙌 Author
+Nijamala Praveen Kumar
